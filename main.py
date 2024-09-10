@@ -62,6 +62,7 @@ center_y = screenshot['height'] // 2
 embaixo = np.array([30, 125, 150]) 
 emcima = np.array([30, 255, 255])
 
+# replace 0.35 with your sensitivity
 speed = 1 / (7 * 0.35)
 os.system("cls")
 print("Loaded")
