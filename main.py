@@ -44,6 +44,7 @@ fov = int(input("FOV: "))
 fov = fov * 2
 sct = mss.mss()
 
+# COM5 should be your arduino port, if not, change it here
 mouse_mover = MouseMover('COM5')
 
 screenshot = sct.monitors[1]
